@@ -115,3 +115,43 @@ img{
 .img-and-section section a{
     font-weight: bold;
 }
+
+@media only screen and (max-width: 960px){
+    .container{
+        width: 90%;
+    }
+
+    nav ul{
+        justify-content: space-around;
+    }
+
+    nav ul a{
+        margin: 0 0;
+    }
+
+    .resources-container{
+        flex-direction: column;
+    }
+
+    .resource{
+        width: 90%;
+        margin-bottom: 1em;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    nav ul{
+        flex-direction: column;
+    }
+    nav ul a{
+        margin-top: 0.5em;
+    }
+    .img-and-section{
+        flex-direction: column;
+        margin-top: 1em;
+    }
+    .contact-elem img{
+        width: 50px;
+        height: 50px;
+    }
+}
